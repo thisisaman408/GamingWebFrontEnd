@@ -42,7 +42,7 @@ const Rule = () => {
 		<div className="flex flex-col justify-center items-center">
 			<div
 				id="string"
-				className="h-[100px] w-full bg-black flex justify-center items-center px-2 -mb-16 pt-10"
+				className="h-[0px] md:h-[130px] w-full bg-black flex justify-center items-center px-2 -mb-16 pt-10"
 				ref={svgRef}>
 				<svg
 					width="700"
@@ -66,7 +66,7 @@ const Rule = () => {
 					/>
 				</svg>
 			</div>
-			<p className="font-robert-regular bg-transparent text-yellow-500 mt-8">
+			<p className="hidden md:font-robert-regular md:bg-transparent md:text-yellow-500 md:mt-8 md:block">
 				Hover on me..!
 			</p>
 		</div>
