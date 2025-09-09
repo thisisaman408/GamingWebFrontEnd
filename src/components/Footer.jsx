@@ -2,11 +2,11 @@ import React from 'react';
 import { FaGithub, FaInstagram } from 'react-icons/fa';
 const links = [
 	{
-		href: `https://www.github.com`,
+		href: `https://www.github.com/thisisaman408`,
 		icon: <FaGithub />,
 	},
 	{
-		href: `https://www.instagram.com/nutassa`,
+		href: `https://www.instagram.com/aisaumyaa`,
 		icon: <FaInstagram />,
 	},
 ];
@@ -15,7 +15,7 @@ const Footer = () => {
 		<footer className="w-screen bg-violet-300 py-4 text-black">
 			<div className="container mx-auto flex flex-col  justify-between items-center gap-4 px-4 md:flex-row">
 				<p className="text-center text-sm md:text-left">
-					©Natasha 2025. All Rights Reserved
+					©Aman 2025. All Rights Reserved
 				</p>
 				<div className="flex justify-center gap-4  md:justify-start">
 					{links.map((link, index) => (
